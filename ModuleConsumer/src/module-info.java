@@ -1,0 +1,3 @@
+module ModuleConsumer {
+  requires JavaModule;
+}
