@@ -36,16 +36,17 @@ public class Switch {
       default -> 0;
     };
 
+    count = 1;
     switch (count) {
       case 1 -> {
-        return;  // end of method
+        break; // end of switch
       }
       case 2 -> {
-        break; // end of switch
+        return;  // end of method
       }
       default -> System.out.println("Some lame number");
     }
-
+    System.out.println("...");
   }
 
 }
