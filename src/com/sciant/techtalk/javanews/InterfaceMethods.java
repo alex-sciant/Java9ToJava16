@@ -21,5 +21,5 @@ public interface InterfaceMethods {
         .sum();
   }
 
-
+  // Since Java 8 we have default and static methods in interfaces!
 }
