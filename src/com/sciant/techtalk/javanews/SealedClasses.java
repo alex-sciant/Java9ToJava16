@@ -1,5 +1,7 @@
 package com.sciant.techtalk.javanews;
 
+//Since Java 15
+
 sealed class Animal permits Cat, Dog {}
 
 non-sealed class Dog extends Animal {}
